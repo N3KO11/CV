@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+}
+
+.calosc {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 595px;
+  height: 842px;
+  position: relative;
+  transform-origin: top left;
+  transition: transform 0.3s ease;
+}
+
+.calosc .kartka {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 595px;
+  height: 842px;
+  background-color: #cbbdbd;
+}
+
+.calosc .tekst {
+  position: absolute;
+  top: 38px;
+  left: 61px;
+  width: 247px;
+  transform: rotate(-0.35deg);
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #a91c1c;
+  font-size: 50px;
+}
+
+.calosc .zdjecie {
+  position: absolute;
+  top: 18px;
+  left: 191px;
+  width: 183px;
+  height: 172px;
+  object-fit: cover;
+}
+
+.calosc .imie {
+  position: absolute;
+  top: 14px;
+  left: 404px;
+  width: 158px;
+  font-family: "Inter-Regular", Helvetica;
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+}
+
+.calosc .mail {
+  position: absolute;
+  top: 104px;
+  left: 404px;
+  width: 206px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 14px;
+}
+
+.calosc .akapit {
+  position: absolute;
+  top: 220px;
+  left: 40px;
+  width: 538px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+}
+
+.calosc .akapit2 {
+  position: absolute;
+  top: 335px;
+  left: 43px;
+  width: 538px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+}
+
+.calosc .span {
+  font-size: 32px;
+}
+
+.calosc .tekst2 {
+  font-size: 20px;
+}
+
+.calosc .tekst3 {
+  font-size: 16px;
+}
+
+.calosc .zainteresowania {
+  position: absolute;
+  top: 484px;
+  left: 42px;
+  width: 539px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+}
+
+.calosc .umiejetnosci {
+  position: absolute;
+  top: 619px;
+  left: 42px;
+  width: 526px;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 32px;
+}
+
+@media (max-width: 1200px) {
+  .calosc {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 900px) {
+  .calosc {
+    transform: scale(0.75);
+  }
+}
+
+@media (max-width: 700px) {
+  .calosc {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 500px) {
+  .calosc {
+    transform: scale(0.45);
+  }
+}
+
+@media (max-width: 400px) {
+  .calosc {
+    transform: scale(0.35);
+  }
+}
